@@ -11,10 +11,10 @@
  1. PROCAR
 ===============================================
 
- &input_plot
- file_read     : prefix of files to be read
- file_k        : name of Fermi surface output file
- mode          : 'qe' , 'vasp'
+ &input_plot <br>
+ file_read     : prefix of files to be read <br>
+ file_k        : name of Fermi surface output file <br>
+ mode          : 'qe' , 'vasp' <br>
  ldecom        : 0 for non-decommposed,
                  1 for decomposed Fermi surface
  lsuscep       : 0 for no lindhard or nesting,
