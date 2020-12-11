@@ -1,0 +1,25 @@
+&input_plot
+file_read    = 'nbse.band'
+file_k       = 'FERMI.dat'
+ldecom       = 1
+lsuscep      = 1
+ef           = 7.8728
+degauss      = 0.02
+n_con        = 8
+/
+6 7 8 9 16 17 20 21
+/
+&suscep_q
+mode         = 'lindhard'
+k_resolve    = 1
+window       = 1
+ibnd_start   = 25
+ibnd_final   = 26
+divide_q     = 1
+divide_k     = 1
+ndegauss     = 2
+degauss_init = 0.016
+delta_gauss  = 0.002
+file_q       = 'SUSCEP.dat'
+file_conv    = 'CONVERGE.dat'
+/
